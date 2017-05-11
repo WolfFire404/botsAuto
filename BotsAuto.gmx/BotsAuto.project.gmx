@@ -4,19 +4,24 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sound0</sound>
+    <sound>sound\sound_win</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\Player</sprite>
     <sprite>sprites\Player_2</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_start</sprite>
-    <sprite>sprites\spr_credits</sprite>
+    <sprite>sprites\spr_ondergrond</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
     <background>background\background2</background>
     <background>background\background_win_1</background>
     <background>background\background_win_2</background>
+    <background>background\background_gred</background>
+    <background>background\background5</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -26,6 +31,7 @@
     <script>scripts\scr_Player_die.gml</script>
     <script>scripts\scr_Player_win.gml</script>
     <script>scripts\scr_Player_bounce.gml</script>
+    <script>scripts\scr_room_start.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_Player_1</object>
@@ -33,6 +39,9 @@
     <object>objects\obj_Wall</object>
     <object>objects\obj_start</object>
     <object>objects\obj_cred</object>
+    <object>objects\obj_exit</object>
+    <object>objects\obj_start_terug</object>
+    <object>objects\obj_onder</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_start</room>

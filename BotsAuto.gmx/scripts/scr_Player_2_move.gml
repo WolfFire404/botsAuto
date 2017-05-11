@@ -75,3 +75,6 @@ if (keyboard_check(vk_left))
  //bewegen
 phy_speed_x = moveSpeedCurrent;
 phy_speed_y = moveSpeedCurrenty;
+
+
+
